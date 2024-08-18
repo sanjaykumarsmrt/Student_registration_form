@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <hr>
+    <p>Please fill out the form below to register as a student.</p>
+    <form action="" method="get">
+        <div class="one">
+            <label for="Full_Name">Full Name:</label>
+            <input type="text" name="name" id="Full_Name">
+        </div>
+        <div class="two">
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email">
+        </div>
+        <div class="three">
+            <label for="Date_of_Birth">Date of Birth:</label>
+            <input type="date" name="DOB" id="Date_of_Birth">
+        </div>
+        <div class="four">
+            <label for="Phone_Number">Phone Number:</label>
+            <input type="number" name="mobile_number" id="Phone_Number">
+        </div>
+        <br>
+        <fieldset class="five">
+            <legend><b>Gender:</b></legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="others">others</label>
+            <input type="radio" name="gender" id="others" value="others"> 
+        </fieldset>
+        <br>
+        <fieldset class="six">
+            <legend><b> Courses Interested</b></legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="course" id="html">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="course" id="css">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" name="course" id="javascript">
+            <label for="python">Python</label>
+            <input type="checkbox" name="course" id="python">
+        </fieldset>
+        <br>
+        <div class="seven">
+            <label for="textarea"><b>Textarea</b></label>
+            <textarea name="Textarea" id="textarea"></textarea>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <br><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Courses Interested</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>730220104036</td>
+                <td>Sanjay</td>
+                <td>sanjaykumar@gmail.com</td>
+                <td>29.09.2002</td>
+                <td>6383892237</td>
+                <td>Male</td>
+                <td>HTML CSS </td>
+            </tr>
+            <tr>
+                <td>730220104041</td>
+                <td>Vadivel</td>
+                <td>vadive23@gmail.com</td>
+                <td>18.09.2003</td>
+                <td>9238472638</td>
+                <td>Male</td>
+                <td>HTML CSS Javascript Python</td>
+            </tr>
+            <tr>
+                <td>730220104042</td>
+                <td>Vignesh</td>
+                <td>vicky123@gmail.com</td>
+                <td>12.02.2002</td>
+                <td>9122358456</td>
+                <td>Male</td>
+                <td>Python JavaScript</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
